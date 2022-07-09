@@ -1,0 +1,885 @@
+
+
+*{
+
+	box-sizing: border-box;
+	padding: 0;
+	margin: auto;
+	font-family: Oswald;
+}
+
+nav{
+
+	display: flex;
+	padding: 10px;
+	height: 94px;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+}
+
+nav a{
+
+	text-decoration: none;
+	color: #404040;
+	font-size: 17px;
+}
+
+.intro {
+
+	width: 87%;
+	margin-top: 45px;
+	text-align: center;
+	height: 1013px;
+	color: white;
+	background: #4535d5;
+}
+
+.intro .container{
+
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+#introMan{
+
+	width: 340px; 
+	height: 488px;
+}
+
+
+.intro .container h1{
+
+	margin-top: 235px;
+	width: 200px;
+	font-size: 48px; 
+	line-height: 52px; 
+	font-weight: 400;
+}
+
+.intro .container p{
+
+	margin-top: 20px;
+	width: 230px;
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 1.5px;
+}
+
+
+.intro button{
+
+	margin-top: 20px;
+	width: 245px; 
+	height: 55px; 
+	padding-bottom: 4px;
+	border-radius: 30px;
+	font-size: 24px;
+	letter-spacing: 1px;
+	background-color: #9cebdf;
+	color: #4535d5;
+	border-style: none;
+	cursor: pointer;
+}
+
+.points {
+
+	width: 87%;
+}
+
+.points h1{
+
+	font-size: 36px; 
+	letter-spacing: 1px;
+	margin-left: 6px;
+}
+
+.points p{
+
+	font-size: 18px; 
+	letter-spacing: 1px; 
+	margin-left: 30px; 
+	margin-top: 26px
+}
+
+.points a{
+
+	margin-left: 30px; 
+	text-decoration: none; 
+	color: #4535d5; 
+	border-bottom: 8px solid #9cebdf; 
+	font-size: 18px; 
+	letter-spacing: 1px;
+}
+
+.points .container1 img{
+
+	box-shadow: 0 0 40px 0 rgb(128 128 128 / 30%);
+	margin-top: 140px;
+	float: right;
+}
+
+
+.points .container2 img{
+
+	margin-top: 172px;
+	box-shadow: 0 0 40px 0 rgb(0 0 0 / 25%);
+}
+
+.points .container2 .item{
+
+	margin-top: 187px;
+	width: 180px;
+}
+
+.points .container2 .item ul{
+
+	margin-top: 25px;
+	width: 120px;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.points .container3{
+
+	height: 900px;
+}
+
+.points .container3 p{
+
+	margin-left: 40px;
+}
+
+.points .container3 a{
+
+	margin-left: 24px;
+	padding-bottom: 3px;
+
+}
+
+.points .container3 img{
+
+	margin-left: 51px;
+	margin-top: 83px;
+	box-shadow: 0 0 40px 0 rgb(26 26 26 / 15%);
+}
+
+#pointsWoman{
+
+	width: 291px; 
+	height: 357px; 
+	object-fit: cover;
+}
+
+#pointsMan{
+
+	width: 334px; 
+	height: 419px; 
+	object-fit:cover;
+}
+
+#pointsPhone{
+
+	width: 285px; 
+	height: 539px; 
+	object-fit: cover; 
+	object-position: top;
+}
+
+.about{
+
+	background: #f2f2f2;
+	height: 1345px;
+}
+
+.about img{
+
+	margin-left: 57px;
+	margin-top: 32px;
+}
+
+
+.about h1{
+
+	margin-top: 290px;
+	font-size: 36px;
+	width: 180px;
+	letter-spacing: 1px;
+}
+
+.about ul{
+	margin-top: 25px;
+	margin-left: 150px;
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+#aboutTW{
+
+	width: 308px; 
+	height: 411px; 
+	object-fit: cover; 
+	box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);
+}
+
+#aboutMan{
+
+	width: 280px; 
+	height: 435px; 
+	object-fit: cover; 
+	margin-top: 115px; 
+	margin-left: 85px;
+}
+
+.features {
+
+	margin-top: 190px;
+	height: 1500px;
+	text-align: center;
+
+}
+
+.features .background{
+	background: #4535d5;
+	height: 506px;
+	margin-top: 321px;
+	width: 349px;
+	position: absolute;
+}
+
+.features h1{
+
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+
+.features p{
+
+	margin-top: 18px;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 1.4px;
+	width: 306px;
+}
+
+.features img{
+
+	position: absolute;
+}
+
+#featMan1{
+
+	width: 159px; 
+	height: 267px; 
+	object-fit: cover; 
+	left: 25px; 
+	margin-top: -95px;
+}
+
+#featWoman1{
+
+	width: 131px; 
+	height: 206px; 
+	object-fit: cover; 
+	margin-top: 71px; 
+	right: 10px;
+}
+
+#featWoman2{
+
+	width: 125px; 
+	height: 194px; 
+	object-fit: cover; 
+	margin-top: 218px; 
+	left: 51px;
+}
+
+#featMan2{
+
+	width: 108px; 
+	height: 173px; 
+	object-fit: cover; 
+	margin-top: 293px; 
+	right: 32px;
+}
+
+.item1{
+
+	margin-top: -330px;
+}
+
+.item1 h1{
+
+	width: 330px; 
+	letter-spacing: 1px; 
+	font-size: 36px;
+}
+
+.item1 p{
+
+	width: 280px; 
+	letter-spacing: 1.4px; 
+	line-height: 25px; 
+	font-size: 17px; 
+	margin-top: 25px
+}
+
+.item1 a{
+
+	margin-right: 57px; 
+	text-decoration: none; 
+	color: #4535d5; 
+	border-bottom: 8px solid #9cebdf; 
+	font-size: 18px; 
+	letter-spacing: 1px;
+}
+
+.yellow{
+
+	margin-top: 132px;
+	display: flex;
+	flex-direction: column;
+	width: 340px;	
+}
+
+.yellow .item{
+
+	height: 343px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	background: #fee856;
+	text-align: center;
+}
+
+.yellow h1{
+
+	color: #4535d5;
+	letter-spacing: 1px;
+	font-size: 30px;
+	margin-top: -50px;
+
+}
+
+.yellow p{
+
+	margin-top: -50px;
+
+	letter-spacing: 1.4px;
+	font-size: 17px;
+}
+
+.contact{
+
+	margin-top: 90px;
+	text-align: center;
+	height: 689px;
+	background-color: #9cebdf;
+}
+
+.contact h1{
+
+	font-size: 36px;
+	padding: 55px 0px;
+
+}
+
+.contact input{
+
+	margin-top: 15px;
+	width: 260px;
+	padding: 14px 14px;
+	border-style: none;
+}
+
+.contact textarea{
+
+	margin-top: 15px;
+	padding: 12px 10px;
+	width: 260px;
+	height: 102px;
+	border-style: none;
+}
+
+.contact button{
+
+	margin-top: 15px;
+	padding: 10px 35px;
+	font-size: 18px;
+	border-style: none;
+	color: white;
+	background-color: #4535d5;
+	letter-spacing: 1px;
+}
+
+.contact .background{
+
+	background: #e5e5e5;
+	width: 340px;
+	height: 534px;
+}
+
+.end{
+
+	height: 100px;
+	margin-top: 50px;
+	width: 200px;
+}
+
+.end a{
+
+	font-size: 30px; 
+	font-weight: 700; 
+	color: black; 
+	text-decoration: none;
+}
+
+.end img{
+
+	margin-top: 40px;
+	margin-left: 40px;
+	padding-bottom: 20px;
+}
+
+#deco1{
+
+	width: 364px; 
+	height: 237px; 
+	object-fit: cover; 
+	top: 92px; 
+	right: 14px
+}
+
+#deco2{
+
+	width: 390px; 
+	height: 127px; 
+	object-fit: cover; 
+	top: 1052px;
+}
+
+#deco3{
+
+	width: 232px; 
+	height: 244px; 
+	top: 1690px; 
+	left: 25px; 
+	z-index: -1;
+}
+
+#deco4{
+
+	width: 281px; 
+	height: 153px; 
+	top: 2630px; 
+	left: 25px;
+	z-index: -1;
+}
+
+#deco5{
+
+	width: 100px; 
+	height: 80px; 
+	top: 2600px; 
+	right: 30px
+}
+
+#deco3a{
+
+	width: 121px; 
+	height: 121px; 
+	top: 3790px; 
+	left: 25px; 
+	z-index: -1;
+}
+
+#deco6{
+	
+	width: 135px; 
+	height: 54px; 
+	top: 4130px; 
+	right: 20px;
+}
+
+#deco8{
+
+	width: 157px; 
+	height: 157px; 
+	top: 4700px; 
+	left: 80px;	
+}
+
+#deco9{
+
+	top: 5600px; 
+	left: 20px;
+}
+
+@media (min-width: 410px){
+
+	nav{
+
+		margin-left: 380px;
+		width: 70%;
+		height: 75px;
+	}
+
+	nav a{
+
+		margin: 0px;
+		letter-spacing: 1px;
+	}
+
+	nav img{
+
+		margin-right: 175px;
+	}
+
+	.intro{
+
+		margin-left: 382px;
+		margin-top: 50px;
+		height: 698px;
+
+		width: 1140px;
+	}
+
+	.intro .container{
+
+		display: flex;
+		flex-direction: row-reverse;
+		text-align: right;
+
+	}
+
+	.intro .img{
+
+		width: 2000px;
+	}
+
+	#introMan{
+
+		width: 570px; 
+		height: 698px;
+		object-fit: contain;
+	}
+
+	.intro .container h1{
+
+		margin-top: 0px;
+		margin-right: 120px;
+		width: 455px;
+		font-size: 60px;
+	}
+
+	.intro .container p{
+		
+		margin-top: 20px;
+		margin-right: 120px;
+		letter-spacing: 3px;
+		width: auto;
+		font-size: 24px;
+	}
+
+	.intro button{
+
+		margin-right: 120px;
+	}
+
+	.points{
+
+		margin-left: 382px;
+		width: 1140px;
+	}
+
+	.points h1{
+
+		margin-left: 20px;
+		margin-top: 180px;
+	}
+
+	.points p{
+	
+		margin-left: 65px; 
+		width: 470px;
+	}
+
+	.points a{
+
+		margin-left: 65px; 
+	}
+
+	#pointsWoman{
+
+		width: 501px; 
+		height: 502px; 
+		margin-top: -262px;
+	}
+
+	#pointsMan{
+
+		width: 496px; 
+		height: 587px; 
+		margin-top: 115px;
+	}
+
+	.points .container2 .item{
+
+		margin-top: -585px;
+		margin-left: 860px;
+	}
+
+	.points .container2 ul{
+
+		margin-left: 42px;
+	}
+
+	.points .container3{
+
+		margin-top: 400px;
+	}
+
+	.points .container3 p{
+
+		margin-left: 65px;
+	}
+
+	.points .container3 a{
+
+		margin-left: 65px;
+		padding-bottom: 3px;
+	}
+
+	#pointsPhone{
+
+		width: 465px; 
+		height: 575px;
+		margin-top: -365px;
+		margin-left: 655px;
+	}
+
+	.about{
+
+		margin-top: -245px;
+		height: 650px;
+	}
+
+	#aboutTW{
+
+		width: 504px;
+		height: 599px;
+		margin-left: 422px;
+		margin-top: -225px;
+	}
+
+	.about h1{
+
+		margin-top: -402px;
+		margin-left: 1260px;
+	}
+
+	.about ul{
+
+		margin-left: 1282px;
+	}
+
+	#aboutMan{
+
+		width: 298px; 
+		height: 435px; 
+		margin-left: 1224px;
+		margin-top: 181px;
+		position: absolute;
+	}
+
+	.features p{
+
+		width: 690px;
+	}
+
+	#featMan1{
+
+		width: 295px;
+		height: 355px;
+		margin-left: 357px;
+		margin-top: -188px;
+		z-index: 2;
+	}
+
+	#featWoman1{
+
+		width: 192px;
+		height: 249px;
+		margin-top: 65px;
+		margin-right: 65px;
+		position: absolute;
+		z-index: 2;
+	}
+
+	#featMan2 {
+
+		width: 171px;
+		height: 248px;
+		margin-top: 364px;
+		z-index: 2;
+	}
+
+	#featWoman2{
+
+		width: 208px;
+		height: 271px;
+		margin-left: 417px;
+		margin-top: 212px;
+		z-index: 2;
+	}
+
+	.features .background{
+
+		width: 1035px;
+		height: 530px;
+		z-index: -1;
+	}
+
+	.item1{
+
+		margin-top: -930px;
+		margin-left: 770px;
+	}
+
+	.item1 p{
+
+		width: 400px;
+		margin-left: 280px;
+	}
+
+	.item1 a{
+
+		margin-right: 450px;
+	}
+
+	.yellow{
+
+		margin-top: 360px;
+		width: auto;
+	}
+
+	.yellow .container{
+
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+		padding: 15px;
+
+	}
+
+	.yellow .item{
+
+		width: 360px;
+		gap: 20px;
+	}
+
+	.contact{
+
+		height: 700px;
+	}
+
+	.contact .background{
+
+		margin-left: 380px;
+		width: 710px;
+	}
+
+	.contact input{
+
+		width: 580px;
+	}
+
+	.contact textarea{
+
+		width: 580px;
+	}
+
+	#deco1{
+
+		width: 1220px; 
+		height: 251px; 
+		object-fit: cover; 
+		margin-right: 325px;
+		margin-top: -15px;
+	}
+
+	#deco2{
+
+		width: 1192px; 
+		height: 237px; 
+		top: 600px;
+		margin-left: 360px;
+	}
+
+	#deco3{
+
+		width: 235px; 
+		height: 210px; 
+		top: 932px; 
+		margin-left: 960px;
+		object-fit: cover;
+	}
+
+	#deco4{
+
+		width: 379px; 
+		height: 206px; 
+		object-fit: contain;
+		top: 1850px; 
+		left: 380px;
+	}
+
+	#deco5{
+
+		width: 169px; 
+		height: 123px; 
+		top: 1800px; 
+		margin-right: 930px;
+	}
+
+	#deco3a{
+
+		width: 271px; 
+		height: 225px; 
+		top: 2100px; 
+		left: 950px;
+		object-fit: contain;
+	}
+
+	#deco6{
+		
+		width: 273px; 
+		height: 54px; 
+		top: 2470px; 
+		right: 370px;
+	}
+
+	#deco8{
+
+		width: 248px; 
+		height: 244px; 
+		top: 4250px; 
+		left: 600px;	
+		object-fit: contain;
+		z-index: 0;
+	}
+
+	#deco9{
+		
+		width: 212px;
+		height: 65px;
+		top: 3450px;
+		left: 1150px;
+	}
+}
